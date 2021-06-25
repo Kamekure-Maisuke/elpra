@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  elpra:
+    build:
+      context: .
+    image: elpra
+    tty: true
+    volumes:
+      - .:/usr/local/src/elpra
